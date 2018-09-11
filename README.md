@@ -11,3 +11,4 @@ In manifest file, we add the network connectivity connection and network state p
 
 
 
+https://en.wikipedia.org/w/api.php?action=query&generator=random&grnnamespace=0&grnlimit=1&prop=info%7Cextracts&inprop=url
