@@ -8,7 +8,3 @@ Message List Tab shows the list of OTP messages send by the app sorted in descen
 In sendMessage class, Activity show the details of selected contact. It also contain a button. On pressing of this button go to next s=activity OTP by using Intent.
 In OTP class contain a text view which show the otp that is going to s=be send and a button. On the click of button OTP is sent.  We use the MSG91 API to send the OTP message and REST API to execute the API. Json object is used to get data. In this activity we also check the network connectivity. In internet is disabled, then display toast with no internet connection. otherwise, It send the otp and then save the details in database along with the time. 
 In manifest file, we add the network connectivity connection and network state permission, so that we can access both in our app. In app, if we send the message, then the details of send message is shown in message list tab next time we open the app.
-
-
-
-https://en.wikipedia.org/w/api.php?action=query&generator=random&grnnamespace=0&grnlimit=1&prop=info%7Cextracts&inprop=url
